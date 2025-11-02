@@ -12,7 +12,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/joginsuprita-20/AnsibleWebApp.git'
+                git branch: 'master', url: 'https://github.com/joginsuprita-20/MavenAnsibleWebApp.git'
+
             }
         }
 
